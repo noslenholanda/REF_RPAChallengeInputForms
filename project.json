@@ -1,8 +1,9 @@
 {
-  "name": "rpa-template",
-  "description": "TesteGit",
+  "name": "REF_RPAChallengeInputForms",
+  "description": "1. Criar um fluxo de trabalho que insira dados de uma planilha nos campos do formulário na tela.\r\n2. Os campos mudarão de posição na tela após cada envio ao longo de 10 rodadas, portanto, o fluxo de trabalho deve identificar corretamente onde cada registro da planilha deve ser digitado todas as vezes.",
   "main": "Main.xaml",
   "dependencies": {
+    "RPAToolkit": "[1.1.8]",
     "UiPath.Excel.Activities": "[2.16.0]",
     "UiPath.System.Activities": "[22.10.3]",
     "UiPath.Testing.Activities": "[22.10.0]",
